@@ -83,7 +83,11 @@ p{
    background-color: black;
    color: white;
    border-radius: 20px;
+   padding: 20px 30px;
 } 
 .width40{
     width: 40%;
+}
+.width24{
+    width: 24%;
 }
