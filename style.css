@@ -1,0 +1,89 @@
+/* TYPOGRAPHIE */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-family: "DM Serif Display", serif;
+    font-size: 85px;
+    width: 75%;
+    font-style: normal;
+}
+h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 50px;
+    font-style: normal;
+}
+p{
+    font-family: "Jost", sans-serif;
+    font-size: 15px;
+}
+.flex{
+    display: flex;
+    flex-wrap:wrap;
+    
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* HEADER */
+.logo{
+    width: 200px ;
+}
+
+.menu{
+    width: 30% ;
+}
+
+.top20{
+    margin-top: 20px;
+}
+
+/* SECTION HERO */
+.hero{
+    background-image: url(asset/Banner.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 0px 200px;
+    padding-top: 40px;
+}
+.top100{
+    margin-top: 100px;
+}
+
+/* SECTION 2 */
+.width25{
+    width: 25%;
+}
+/* BOUTON */
+.btn{
+   background-color: black;
+   color: white;
+   border-radius: 20px;
+} 
+.width40{
+    width: 40%;
+}
