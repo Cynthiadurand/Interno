@@ -5,9 +5,14 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    color:#292F36;
+}
 
 a{
     text-decoration: none;
+    font-family: "Jost",sans-serif;
+    color:#292F36;
 }
 
 li{
@@ -15,20 +20,28 @@ li{
 }
 
 h1{
-    font-family: "DM Serif Display", serif;
-    font-size: 85px;
+    font-family: "DM Serif Display",serif;
+    font-size: 80px;
     width: 75%;
-    font-style: normal;
 }
+
 h2{
-    font-family: "DM Serif Display", serif;
+    font-family: "DM Serif Display",serif;
     font-size: 50px;
-    font-style: normal;
+    margin-bottom: 15px;
 }
+h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
 p{
     font-family: "Jost", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
 }
+
+/* Propriété flexbox */
 .flex{
     display: flex;
     flex-wrap:wrap;
@@ -43,9 +56,43 @@ p{
     align-items: center;
 }
 
+.gap20{
+    gap: 20px;
+}
+
+/* Fin propriété flexbox */
+
 .container{
     max-width: 1000px;
     margin: auto;
+}
+/* BOUTON */
+.btn{
+    background-color: #292F36;
+    color: white;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    display: inline-block;
+    border-radius: 12px;
+    margin-top: 40px;
+}
+
+.width30{
+    width: 30%;
+}
+
+.width40{
+    width: 40%;
+}
+
+.paddingTop150{
+    padding-top: 150px;
+}
+
+.textCenter{
+    text-align: center;
 }
 
 /* HEADER */
@@ -68,26 +115,26 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0px 0px 0px 200px;
-    padding-top: 40px;
-}
-.top100{
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
-/* SECTION 2 */
-.width25{
-    width: 25%;
+.pHero{
+    font-size: 22px;
+    margin-top: 40px;
 }
-/* BOUTON */
-.btn{
-   background-color: black;
-   color: white;
-   border-radius: 20px;
-   padding: 20px 30px;
-} 
-.width40{
-    width: 40%;
-}
+
+
+/* SECTION DEVIS */
+
 .width24{
     width: 24%;
+}
+.imageSectionDevis{
+    border-radius: 0 200px 0 50px;
+}
+.iconCall{
+    width: 25px;
+}
+.pSectionDevis{
+    margin-bottom: 15px;
 }
